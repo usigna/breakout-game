@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 62.25%;
+}
+
+body {
+  height: 100%;
+  color: #FFFFFF;
+  background-color: #0C0F0A;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.score {
+  font-size: 2.4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.grid {
+  width: 890px;
+  height: 500px;
+  border: 1px solid #FFFFFF;
+  position: relative;
+  margin: 0 auto;
+}
+
+.block {
+  width: 100px;
+  height: 20px;
+  background-color: #FF206E;
+  position: absolute;
+}
+
+.user {
+  width: 100px;
+  height: 20px;
+  background-color: #FBFF12;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  position: absolute;
+}

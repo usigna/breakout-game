@@ -1,0 +1,8 @@
+.idea/
+*.*~
+node_modules
+.vscode/
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
